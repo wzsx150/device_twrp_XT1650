@@ -1,0 +1,25 @@
+#start system.prop
+#
+# system.prop
+#
+ro.secure=0
+ro.adb.secure=0
+#ro.sf.lcd_density=480
+
+#persist.sys.usb.config=mtp
+persist.sys.isUsbOtgEnabled=true
+
+ro.carrier=unknown
+persist.sys.timezone=Asia/Shanghai
+persist.sys.language=zh
+persist.sys.country=CN
+
+
+# for device
+ro.mot.build.device=griffin
+ro.mot.build.system.product=griffin_retcn
+
+
+
+
+#end system.prop
