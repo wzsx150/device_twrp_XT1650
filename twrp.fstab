@@ -6,7 +6,7 @@
 
 #<src>                                                <mnt_point>  <type>  <mnt_flags and options>                     <fs_mgr_flags>
 #/data      f2fs     /dev/block/bootdevice/by-name/userdata     flags=encryptable=footer;length=-16384
-/data      f2fs     /dev/block/bootdevice/by-name/userdata     flags=fsflags="inline_xattr";encryptable=/dev/block/bootdevice/by-name/metadata
+/data      f2fs     /dev/block/bootdevice/by-name/userdata     flags=encryptable=/dev/block/bootdevice/by-name/metadata
 /cache     ext4     /dev/block/bootdevice/by-name/cache        flags=backup=1;wipeingui;wipeduringfactoryreset;flashimg=1
 /system    ext4     /dev/block/bootdevice/by-name/system       flags=backup=1;wipeingui;flashimg=1
 /boot      emmc     /dev/block/bootdevice/by-name/boot         flags=backup=1;flashimg=1
