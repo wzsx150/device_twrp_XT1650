@@ -51,6 +51,7 @@ TARGET_USES_MOTOROLA_LOG := true
 
 # Init  --not use
 #TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
+BOARD_CUSTOM_BOOTIMG_MK := device/twrp/XT1650/mkbootimg.mk
 
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
